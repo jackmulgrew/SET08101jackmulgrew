@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SFQ - Quiz</title>
+
+    <!--Added CSS & Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<!--Javascript -->
+	<script src="js/quiz.js"></script>
+  </head>
+	
+  <body>
+	  
+	  
+    <!-- Navigation Banner -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       
+	  <a class="navbar-brand" href="index.html">Scottish Football Quiz</a>
+       	 
+       <div class="collapse navbar-collapse">
+          
+		   <ul class="navbar-nav mr-auto">
+             <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+             </li>
+			   <li class="nav-item active">
+                <a class="nav-link" href="quiz.html">Quiz<span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+             </li>
+			  <li class="nav-item">
+                <a class="nav-link" href="history.html">History</a>
+             </li>
+			  
+          </ul>
+          
+       </div>
+    </nav>
+	  
+	  
+
+    <div class="jumbotron jumbotron-fluid text-center">
+		<br>
+		<br>
+       <h1 class="display-4 paragraph">Quiz</h1>
+		<br>
+		<br>
+		<br>
+		<br>      
+    </div>
+	  
+	
+	<div class="quiz">
+	  <div class="container text-center">
+		  
+		<h3>Question 1</h3>		
+<p id="question1">How many world cups have Scotland qualified for?</p>
+
+    <button type="button" onclick='document.getElementById("question1").innerHTML = "Wrong Answer"'>3</button>
+	
+	<button type="button" onclick='document.getElementById("question1").innerHTML = "Correct Answer"'>8</button>
+	
+	<button type="button" onclick='document.getElementById("question1").innerHTML = "Wrong Answer"'>11</button>
+		  
+		  <hr>
+	
+<h3>Question 2</h3>	
+
+<p id="question2">Who is Scotland's International highest goal scorer?</p>
+
+    <button type="button" onclick='document.getElementById("question2").innerHTML = "Correct Answer"'>Kenny Dalglish</button>
+	
+	<button type="button" onclick='document.getElementById("question2").innerHTML = "Wrong Answer"'>James McFadden</button>
+	
+	<button type="button" onclick='document.getElementById("question2").innerHTML = "Wrong Answer"'>Ally McCoist</button>
+		  
+		  <hr>
+	
+<h3>Question 3</h3>	
+
+<p id="question3">When was the last year the premier league was won by a team outside the old firm?</p>
+
+    <button type="button" onclick='document.getElementById("question3").innerHTML = "Correct Answer"'>Aberdeen 1984-85</button>
+	
+	<button type="button" onclick='document.getElementById("question3").innerHTML = "Wrong Answer"'>Hearts 1990-91</button>	
+	
+	<button type="button" onclick='document.getElementById("question3").innerHTML = "Wrong Answer"'>Kilmarnock 1972-73</button>
+		  
+		  <hr>
+	
+<h3>Question 4</h3>	
+
+<p id="question4">Which player was purchased with the record transfer fee paid in Scottish football?</p>
+
+    <button type="button" onclick='document.getElementById("question4").innerHTML = "Wrong Answer"'>Andrew Robertson Dundee United > Hull FC</button>
+	
+	<button type="button" onclick='document.getElementById("question4").innerHTML = "Wrong Answer"'>Craig Gordon Hearts > Sunderland FC</button>
+	
+	<button type="button" onclick='document.getElementById("question4").innerHTML = "Correct Answer"'>Kieran Tierney Celtic > Arsenal</button>
+		  
+		  <hr>
+	
+<h3>Question 5</h3>	
+
+<p id="question5">Which Scottish player has not won the Champion's League?</p>
+
+    <button type="button" onclick='document.getElementById("question5").innerHTML = "Correct Answer"'>Scott McTominay - manchester United</button>
+	
+	<button type="button" onclick='document.getElementById("question5").innerHTML = "Wrong Answer"'>Billy Gilmour - Chelsea</button>
+	
+	<button type="button" onclick='document.getElementById("question5").innerHTML = "Wrong Answer"'>Andrew Robertson - Liverpool</button>
+		  
+		  <hr>
+
+<h3>Question 6</h3>	
+
+<p id="question6">Which one of these teams has a proffessional full time squad but not in the top 2 Scottish Leagues?</p>
+
+    <button type="button" onclick='document.getElementById("question6").innerHTML = "Wrong Answer"'>Kilmarnock</button>
+	
+	<button type="button" onclick='document.getElementById("question6").innerHTML = "Correct Answer"'>Falkirk</button>
+	
+	<button type="button" onclick='document.getElementById("question6").innerHTML = "Wrong Answer"'>Livingston</button>
+		  
+		  <hr>
+	
+<h3>Question 7</h3>	
+
+<p id="question7">Which Scottish Premier League team plays in purple?</p>
+
+	
+	<button type="button" onclick='document.getElementById("question7").innerHTML = "Wrong Answer"'>Inverness</button>	  
+		  
+    <button type="button" onclick='document.getElementById("question7").innerHTML = "Correct Answer"'>Ross County</button>
+	
+	<button type="button" onclick='document.getElementById("question7").innerHTML = "Wrong Answer"'>Aberdeen</button>
+	    
+		  <hr>
+		
+
+		  
+	<a href="quiz.html" class="btn btn-primary">Restart Quiz</a>	  
+		  
+		  
+		  
+      </div>
+	  </div>
+    
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       
+	
+       <!-- Footer -->
+<footer class="page-footer font-small blue pt-4 ">
+  <div class="container-fluid text-center text-md-left">
+    <div class="row">
+      <div class="col-md-6 mt-md-0 mt-3">
+        <h5 class="text-uppercase text-center">Content Disclaimer</h5>
+        <p class="text-center paragraph">This website and any content displayed is being used for educational purposes.</p>
+      </div>
+   
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+      <div class="col-md-3 mb-md-0 mb-3">
+        <h5 class="text-uppercase">Links</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="quiz.html">Quiz</a>
+          </li>
+		  </ul>
+      </div>
+      
+      <div class="col-md-3 mb-md-0 mb-3">
+        <h5 class="text-uppercase">Links</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="history.html">History</a>
+          </li>
+          <li>
+            <a href="about.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-3 paragraph">© 2022 Copyright:
+    <a href="/"> ScottishFootballQuiz.com</a>
+  </div>
+</footer>
+    </div>
+  </body>
+
+</html>
